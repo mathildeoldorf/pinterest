@@ -1,0 +1,55 @@
+pinterest
+│   .gitignore
+└── server
+    │    
+    └── apis /
+    │   │ [... apis goes here]
+    └── images / $allowed_file_extensions === ["jpg", "jpeg", "png"];
+    │   └── pins /
+    │   │   │  [... images goes here]
+    │   └── users* /
+    │       │  [... images goes here]
+    └── libs /
+    │   └── PHPMailer / src / 
+    │   │   │  Exception.php 
+    │   │   │  OAuth.php 
+    │   │   │  PHPMailer.php 
+    │   │   │  POP3.php 
+    │   │   │  SMTP.php 
+    │   .htaccess
+
+
+pinterest
+    client
+    │    
+    └── node_modules /
+    │   └─ bin /
+    │   │ [... node_modules will be present here]
+    └── public /
+    │   └─ build /
+    │   │  │  bundle.css
+    │   │  │  bundle.js
+    │   │  │  bundle.js.map
+    │   └── *libs* /
+    │      │  [... custom global purpose .js goes here]
+    │   favicon.png
+    │   global.css
+    │   index.html
+    └── scripts /
+    │   │  setupTypeScript.js
+    └── src /
+    │   │  App.svelte
+    │   │  main.js
+    │   └── *components* /
+    │   │   │  [... Components goes here]
+    │   └── *css* /
+    │   │   │  {... .css goes here}
+    │   │   │  tailwind.config.js
+    │   │   │  tailwind.css
+    │   └── *data* / 
+    │       │  [... $stores goes here]
+    │   *.eslintrc.json*
+    │   package-lock.json
+    │   package.json
+    │   README.md
+    │   rollup.config.js
